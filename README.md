@@ -1,4 +1,4 @@
-### Intruction
+### Instruction
 
 ```bash
 # build typst as dynamic lib
