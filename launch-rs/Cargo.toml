@@ -1,0 +1,15 @@
+[package]
+name = "launch-typst"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate_type = ["cdylib"]
+
+[dependencies]
+typst-cli = { git = "https://github.com/novartole/typst.git", branch = "dev" }
+libc = "0.2.161"
+shlex = "1.3.0"
+
+[build-dependencies]
+cbindgen = "0.27.0"
